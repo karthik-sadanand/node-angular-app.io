@@ -1,0 +1,38 @@
+{            "questions": [
+                {
+                    "questionString" : "what is you?",
+                    "answer" : [
+                        {
+                            "answerString" : "why do you want it?",
+                            "upVoteCount" : 1
+                        },
+
+                        {
+                            "answerString" : "poda",
+                            "upVoteCount" : 2
+                        }
+
+                    ]
+
+                },
+
+                {
+				   "questionString" : "what are you?",
+                    "answer" : [
+                        {
+                            "answerString" : "why do you want it?",
+                            "upVoteCount" : 1
+                        },
+
+                        {
+                            "answerString" : "poda",
+                            "upVoteCount" : 2
+                        }
+
+                    ]
+
+                }
+            ]
+        }
+
+

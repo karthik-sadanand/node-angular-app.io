@@ -1,0 +1,23 @@
+{
+	"questions": [{
+		"id": 1,
+		"questionString": "what is you?",
+		"answer": [{
+			"answerString": "why",
+			"upVoteCount": 1
+		}, {
+			"answerString": "haii",
+			"upVoteCount": 2
+		}]
+	}, {
+		"id": 2,
+		"questionString": "how is you?",
+		"answer": [{
+			"answerString": "how are you",
+			"upVoteCount": 3
+		}, {
+			"answerString": "hai",
+			"upVoteCount": 4
+		}]
+	}]
+}

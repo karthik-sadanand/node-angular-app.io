@@ -1,0 +1,158 @@
+body{
+    background-color: #D3D1D1; 
+    padding-bottom:  20px;
+}
+.question_container{
+    border : 1px solid #ccc;
+    padding:   10px;
+    overflow:  auto;
+    margin-top : 20px;
+}
+
+.answers_holder{
+    width : 100%;
+    overflow:  auto;
+}
+
+.ind_answers{
+    width : 100%;
+    border : 1px dotted #ccc;
+    overflow:  auto;
+    margin-top:  20px;
+    padding:  5px;    
+}
+
+.answers{
+    width : 60%;
+}
+
+.voting_holder{
+    width : 35%;
+    margin-left:   2%;
+    border : 1px solid #000;
+    margin-top:  20px;
+    border-radius : 2px;
+    -moz-border-radius : 2px;
+    -webkit-border-radius : 2px;
+}
+.answers,.voting_holder{
+    float : left;
+}
+.content_holder{
+    margin-top : 100px;
+}
+
+
+button{
+    margini-top : 2px;
+}
+
+#iamButtonIdesrveRespect{
+    margin-top : 7px;
+}
+
+.left,.middle,.right{
+    width : 30%;
+    float:  left;
+    text-align:  center;
+    padding: 10px;
+    margin-left: 2%;
+    border-radius:  3px;
+    -webkit-border-radius : 3px;
+    -moz-border-radius : 3px;
+    cursor : pointer;
+}
+
+.left{
+    margin-top:  13px;
+}
+
+.right{
+    margin-top:  3px;
+}
+
+.left:hover{
+    background-color : #ccc;
+}
+
+.middle:hover{
+    background-color : #ccc;
+}
+
+.right:hover{
+    background-color : #ccc;
+}
+
+.new_answer_holder{
+    overflow: auto;
+}
+
+.new_answer{
+    width : 80%;
+    float:  left;
+    height: 70px;
+}
+
+.answer_holder{
+    width : 100%;
+    border : 1px solid #000;
+    padding:   10px;
+}
+.post_aswer{
+    float: left;
+    width : 10%;
+    margin-left:  5%;
+    margin-top: 5px;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak{
+    display:  none;
+}
+
+.overlay{
+    position:  fixed;
+    z-index:  10000;
+    background-color:  rgba(0,0,0,0.7);
+    width : 100%;
+    height: 100%;
+    top : 0;
+    left : 0;
+    display: none;
+}
+
+.input_box{
+    position:  absolute;
+    z-index: 200000;
+    width : 500px;
+    top : 200px;
+    left : 0px;
+    right: 0px;
+    margin: auto;
+    background-color: #fff;
+    border-radius : 3px;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+
+.input_box h1{
+    margin-top:  0px;
+    text-align: left;
+}
+
+.input_box .inputQuestion{
+    width: 260px;
+    height: 30px;
+    margin: auto;
+    float: none;
+}
+
+.input_box button{
+    margin-top: 10px;
+}
+
+
+#iAmAnAnswerHolderIneedSomeRespect{
+    height:  50px;
+    width : 300px;
+}
